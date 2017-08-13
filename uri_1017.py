@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+c = float((a * b)/12)
+c  = '{:.3f}'.format(c)
+print (c)

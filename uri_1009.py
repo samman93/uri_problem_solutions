@@ -1,0 +1,7 @@
+a = input()
+b = float(input())
+c = float(input())
+TOTAL = b + (c*(15/100))
+TOTAL  = '{:.2f}'.format(TOTAL )
+#print("NUMBER = "+str(a))
+print("TOTAL = R$ "+str(TOTAL))
